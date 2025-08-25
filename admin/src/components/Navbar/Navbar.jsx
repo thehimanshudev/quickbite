@@ -17,7 +17,7 @@ const Navbar = () => {
     navigate("/");
   };
   return (
-    <div className="navbar">
+    <div className="navbar" >
       <img className="logo" src={assets.logo} alt="" />
       {token && admin ? (
         <p className="login-conditon" onClick={logout}>
