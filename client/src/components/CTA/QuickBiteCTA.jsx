@@ -21,25 +21,28 @@ const QuickBiteCTA = () => {
         Join thousands of food lovers who trust QuickBite for fresh, tasty meals
         delivered fast.
       </p>
-
-      <button
-        style={{
-          padding: "12px 25px",
-          backgroundColor: "#fff",
-          color: "#f97316",
-          fontWeight: "600",
-          fontSize: "16px",
-          border: "none",
-          borderRadius: "8px",
-          cursor: "pointer",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
-          transition: "all 0.3s ease",
-        }}
-        onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#f3f4f6")}
-        onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#fff")}
-      >
-        Order Now
-      </button>
+      <a href="https://wa.me/+918168087734" target="_blank">
+        <button
+          style={{
+            padding: "12px 25px",
+            backgroundColor: "#fff",
+            color: "#f97316",
+            fontWeight: "600",
+            fontSize: "16px",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+            transition: "all 0.3s ease",
+          }}
+          onMouseOver={(e) =>
+            (e.currentTarget.style.backgroundColor = "#f3f4f6")
+          }
+          onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#fff")}
+        >
+          Order Now
+        </button>
+      </a>
     </div>
   );
 };

@@ -17,7 +17,7 @@ const Footer = () => {
             hassle-free for customers while helping restaurants serve better.
           </p>
           <div className="footer-social-icons">
-            <a href="https://www.github.com/Himanshu" target="_blank">
+            <a href="https://www.github.com/thehimanshudev" target="_blank">
               {" "}
               <img
                 src={assets.github}
@@ -26,10 +26,7 @@ const Footer = () => {
               />
             </a>
             <img src={assets.twitter_icon} alt="" />
-            <a
-              href="https://www.linkedin.com/in/naina-madan-499768318/"
-              target="_blank"
-            >
+            <a href="" target="_blank">
               <img src={assets.linkedin_icon} alt="" />
             </a>
           </div>
@@ -46,7 +43,7 @@ const Footer = () => {
         <div className="footer-content-right">
           <h2>Get in touch</h2>
           <ul>
-            <li>+91 98126 90800</li>
+            <li>+91 816 808 7734</li>
             <li>contact@Himanshu.com</li>
           </ul>
         </div>
